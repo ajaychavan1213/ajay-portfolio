@@ -1,0 +1,263 @@
+{
+  "personalDetails": {
+    "_id": "6a5f4b8f5257fda2ce515111",
+    "name": "Ajay Chavan",
+    "title": "Senior Staff Software Engineer & 3D Web Architect",
+    "subtitle": "Architecting Enterprise 3D WebGL Interfaces, Microservice Ecosystems & Real-time AI Systems.",
+    "bio": "Senior Staff Software Engineer with 10+ years of experience engineering high-performance web applications, WebGL digital twins, and resilient backend distributed systems. Proven track record leading cross-functional engineering teams, scaling cloud infrastructure on AWS/GCP, and authoring open-source developer tooling.",
+    "resumeUrl": "/resume.pdf",
+    "email": "chavanajay46926@gmail.com",
+    "githubUrl": "https://github.com/ajaychavan",
+    "linkedinUrl": "https://linkedin.com/in/ajaychavan",
+    "twitterUrl": "https://twitter.com/ajaychavan_dev",
+    "stats": [
+      { "label": "Years Experience", "value": "10+" },
+      { "label": "Enterprise Projects", "value": "50+" },
+      { "label": "Cloud Microservices", "value": "120+" },
+      { "label": "Global Users Scaled", "value": "5M+" }
+    ],
+    "achievements": [
+      { "title": "Staff Engineer Leadership", "desc": "Led 15+ engineers across frontend, backend, and DevOps domains" },
+      { "title": "WebGL Engine Optimization", "desc": "Reduced 3D render loop latencies by 65% for real-time digital twins" },
+      { "title": "AWS Cloud Security Architect", "desc": "Designed SOC2-compliant serverless infrastructure serving 50k req/sec" }
+    ]
+  },
+  "timeline": [
+    {
+      "id": "exp-1",
+      "type": "experience",
+      "roleOrDegree": "Staff Software Engineer & WebGL Lead",
+      "companyOrInstitution": "Aether Dynamics Inc.",
+      "location": "San Francisco, CA (Remote)",
+      "duration": "2022 - Present",
+      "description": "Leading the core WebGL & Frontend Platform team in building real-time 3D telemetry dashboards and cloud simulation platforms for Fortune 500 clients.",
+      "bulletPoints": [
+        "Architected a high-throughput WebGL rendering engine with Three.js & GLSL shaders, executing 60 FPS 3D scenes with 500k+ instanced mesh elements.",
+        "Engineered zero-downtime CI/CD pipelines via GitHub Actions, Docker, and Kubernetes, decreasing release cycle durations from 3 days to 15 minutes.",
+        "Mentored senior engineers, conducted technical architecture reviews, and established company-wide TypeScript & React code standards."
+      ]
+    },
+    {
+      "id": "exp-2",
+      "type": "experience",
+      "roleOrDegree": "Principal Full Stack Engineer",
+      "companyOrInstitution": "Nexus AI Labs",
+      "location": "Mumbai, India",
+      "duration": "2019 - 2022",
+      "description": "Directed engineering of enterprise AI-assisted analytics platforms, real-time data streaming pipelines, and microservice backend clusters.",
+      "bulletPoints": [
+        "Designed streaming LLM integration interfaces and Pinecone vector search databases, enabling sub-100ms context retrieval for 1M+ active queries.",
+        "Refactored monolithic legacy systems into Node.js/TypeScript microservices with Kafka event queues and Redis caching, cutting P99 latency by 70%.",
+        "Built dynamic data visualization suites with React, D3.js, and Framer Motion, boosting executive user engagement by 45%."
+      ]
+    },
+    {
+      "id": "exp-3",
+      "type": "experience",
+      "roleOrDegree": "Senior Full Stack Developer",
+      "companyOrInstitution": "Apex Code Solutions",
+      "location": "Pune, India",
+      "duration": "2016 - 2019",
+      "description": "Engineered scalable SaaS applications, RESTful & GraphQL backend APIs, and secure multi-tenant authentication systems.",
+      "bulletPoints": [
+        "Developed distributed Node.js/Express APIs backing cloud ERP solutions with OAuth2/JWT security and RBAC access controls.",
+        "Optimized MongoDB aggregations and PostgreSQL database indices, eliminating slow query locks under heavy concurrent loads.",
+        "Collaborated with product leadership to scope MVP specifications, delivering 12 client products on schedule."
+      ]
+    },
+    {
+      "id": "exp-4",
+      "type": "experience",
+      "roleOrDegree": "Software Engineer",
+      "companyOrInstitution": "ByteTech Systems",
+      "location": "Pune, India",
+      "duration": "2014 - 2016",
+      "description": "Built responsive web applications, interactive UI components, and automated unit/integration test suites.",
+      "bulletPoints": [
+        "Created custom UI component libraries with vanilla JavaScript, HTML5, and CSS3 grid layouts.",
+        "Integrated third-party payment gateways (Stripe, Razorpay) and Automated Email/SMS dispatch systems."
+      ]
+    },
+    {
+      "id": "edu-1",
+      "type": "education",
+      "roleOrDegree": "Bachelor of Engineering in Computer Science",
+      "companyOrInstitution": "Pune University",
+      "location": "Pune, India",
+      "duration": "2010 - 2014",
+      "description": "Graduated First Class with Honors. Specialization in Distributed Systems, Computer Graphics & Web Architecture.",
+      "bulletPoints": [
+        "Published research paper on GPU-accelerated ray marching algorithms in web browsers.",
+        "President of University Computer Society & Lead Organizer of Annual National Tech Hackathon."
+      ]
+    }
+  ],
+  "skills": [
+    { "name": "React / Next.js 15", "category": "frontend", "level": 98, "iconName": "React" },
+    { "name": "TypeScript / JavaScript ESNext", "category": "frontend", "level": 96, "iconName": "TypeScript" },
+    { "name": "Three.js / React Three Fiber", "category": "frontend", "level": 92, "iconName": "Three" },
+    { "name": "Tailwind CSS & Web UI Systems", "category": "frontend", "level": 98, "iconName": "Tailwind" },
+    { "name": "GLSL Shaders & WebGL", "category": "frontend", "level": 88, "iconName": "Glsl" },
+    { "name": "Framer Motion & GSAP", "category": "frontend", "level": 95, "iconName": "Motion" },
+    { "name": "Node.js / Express / NestJS", "category": "backend", "level": 95, "iconName": "Node" },
+    { "name": "GraphQL & RESTful Architectures", "category": "backend", "level": 92, "iconName": "Graphql" },
+    { "name": "Microservices & Event-Driven Systems", "category": "backend", "level": 90, "iconName": "Microservices" },
+    { "name": "WebSockets & WebRTC Streams", "category": "backend", "level": 88, "iconName": "Websockets" },
+    { "name": "PostgreSQL & Prisma ORM", "category": "database", "level": 94, "iconName": "Postgres" },
+    { "name": "MongoDB & Mongoose", "category": "database", "level": 95, "iconName": "Mongo" },
+    { "name": "Redis Caching & PubSub", "category": "database", "level": 90, "iconName": "Redis" },
+    { "name": "Pinecone Vector Database", "category": "database", "level": 86, "iconName": "Pinecone" },
+    { "name": "AWS (EC2, S3, ECS, Lambda)", "category": "devops", "level": 90, "iconName": "Aws" },
+    { "name": "Docker & Kubernetes", "category": "devops", "level": 88, "iconName": "Docker" },
+    { "name": "CI/CD Pipelines (GitHub Actions)", "category": "devops", "level": 92, "iconName": "Github" },
+    { "name": "Vercel & Cloudflare Edge Services", "category": "devops", "level": 98, "iconName": "Vercel" },
+    { "name": "React Native & Expo Mobile Apps", "category": "mobile", "level": 88, "iconName": "ReactNative" },
+    { "name": "OpenAI API & LLM Agentic Pipelines", "category": "ai", "level": 92, "iconName": "Openai" },
+    { "name": "LangChain & Vector RAG Architectures", "category": "ai", "level": 88, "iconName": "Langchain" }
+  ],
+  "services": [
+    {
+      "title": "Enterprise Full-Stack Architecture",
+      "description": "Architecting resilient, production-grade Next.js, Node.js, and cloud microservice ecosystems designed to scale cleanly to millions of users.",
+      "iconName": "Cpu",
+      "features": ["Zero-downtime Microservices", "High-throughput Database Indexing", "SOC2-compliant JWT Security", "Core Web Vitals Optimization"]
+    },
+    {
+      "title": "3D WebGL Digital Twins & Telemetry",
+      "description": "Engineering interactive 3D WebGL visualizations, digital twin simulations, and custom GLSL shader effects using Three.js & React Three Fiber.",
+      "iconName": "Globe",
+      "features": ["Instanced Mesh Rendering", "Custom GLSL Post-Processing Shaders", "Smooth Camera Motion Controllers", "Physics Simulation Engines"]
+    },
+    {
+      "title": "AI & Vector RAG Integrations",
+      "description": "Building intelligent agentic LLM assistants, vector semantic search pipelines, and automated streaming AI workflows.",
+      "iconName": "Sparkles",
+      "features": ["Contextual RAG Retrieval", "Real-time SSE Streaming AI", "Vector Embedding Databases", "Custom Fine-tuned Assistant Nodes"]
+    },
+    {
+      "title": "UX/UI Design Systems & Animations",
+      "description": "Crafting world-class glassmorphic design systems, smooth page transitions, interactive sound FX, and micro-interactions.",
+      "iconName": "Palette",
+      "features": ["Cyberpunk Glassmorphism Aesthetics", "GSAP Timeline Animations", "Framer Motion Interactive Triggers", "Fully Responsive Touch & Mobile UI"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "CyberSphere: Real-time 3D Telemetry Simulation",
+      "category": "web3d",
+      "description": "An interactive 3D WebGL telemetry portal featuring instanced particle networks, custom GLSL shader glows, and live node query capabilities.",
+      "details": "CyberSphere is a flagship WebGL simulation dashboard engineered with React Three Fiber, GSAP, and Tailwind CSS. It enables real-time visual monitoring of server clusters across global geographical points with GPU-accelerated 60 FPS performance.",
+      "technologies": ["Next.js 15", "Three.js", "React Three Fiber", "GSAP", "Tailwind CSS", "TypeScript"],
+      "github": "https://github.com/ajaychavan/cybersphere",
+      "demo": "https://cybersphere-demo.vercel.app",
+      "images": ["/images/cybersphere-1.jpg", "/images/cybersphere-2.jpg"],
+      "featured": true
+    },
+    {
+      "id": "proj-2",
+      "title": "AuraAI: Agentic Knowledge Base & RAG Assistant",
+      "category": "ai",
+      "description": "A context-aware AI assistant leveraging OpenAI LLMs, Pinecone vector embeddings, and serverless streaming responses.",
+      "details": "AuraAI provides real-time streaming chatbot responses grounded in localized document embeddings. Features a glassmorphism control panel, conversation history persistence, custom prompt engineering templates, and vector similarity search.",
+      "technologies": ["Next.js 15", "OpenAI API", "Pinecone DB", "LangChain", "Zustand", "Tailwind CSS"],
+      "github": "https://github.com/ajaychavan/aura-ai",
+      "demo": "https://aura-ai-demo.vercel.app",
+      "images": ["/images/aura-1.jpg", "/images/aura-2.jpg"],
+      "featured": true
+    },
+    {
+      "id": "proj-3",
+      "title": "NovaCloud: Enterprise Kubernetes DevOps Console",
+      "category": "devops",
+      "description": "A centralized monitoring dashboard tracking container cluster health, microservice logs, and automated deployment pipelines.",
+      "details": "NovaCloud compiles telemetry across multi-region cloud servers. Features interactive metric heatmaps, real-time WebSocket alert triggers, container restart controls, and automated YAML manifest builders.",
+      "technologies": ["Node.js", "Express", "Docker", "AWS ECS", "Socket.io", "Recharts", "TypeScript"],
+      "github": "https://github.com/ajaychavan/novacloud",
+      "demo": "https://novacloud-demo.vercel.app",
+      "images": ["/images/novacloud-1.jpg"],
+      "featured": true
+    },
+    {
+      "id": "proj-4",
+      "title": "MetaPay: Mobile Crypto Asset Wallet",
+      "category": "mobile",
+      "description": "A React Native cross-platform cryptocurrency tracking and security transaction wallet with biometric authentication.",
+      "details": "MetaPay manages multi-chain crypto assets with dynamic chart analytics, biometric touch ID login, swipe-to-confirm token transfers, and automated dark theme switching.",
+      "technologies": ["React Native", "Expo", "Reanimated", "TypeScript", "Ethers.js"],
+      "github": "https://github.com/ajaychavan/metapay",
+      "demo": "https://metapay-demo.vercel.app",
+      "images": ["/images/metapay-1.jpg"],
+      "featured": false
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AWS Certified Solutions Architect – Professional",
+      "issuer": "Amazon Web Services (AWS)",
+      "date": "2024",
+      "verificationLink": "https://aws.amazon.com/verification",
+      "iconName": "Aws"
+    },
+    {
+      "title": "Next.js & React Core Specialist",
+      "issuer": "Vercel",
+      "date": "2023",
+      "verificationLink": "https://vercel.com/certification",
+      "iconName": "Vercel"
+    },
+    {
+      "title": "MongoDB Certified Database Administrator & Developer",
+      "issuer": "MongoDB Inc.",
+      "date": "2022",
+      "verificationLink": "https://mongodb.com/credentials",
+      "iconName": "Mongo"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "David Sterling",
+      "role": "CTO & VP of Technology",
+      "company": "Aether Dynamics Inc.",
+      "feedback": "Ajay is a rare Staff-level software engineer who combines master-level WebGL 3D rendering with rock-solid distributed server backend skills. He elevated our product architecture and transformed our engineering culture.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150"
+    },
+    {
+      "name": "Dr. Elena Rostova",
+      "role": "Head of Artificial Intelligence",
+      "company": "Nexus AI Labs",
+      "feedback": "Ajay's technical expertise in building real-time vector search pipelines and sleek glassmorphic frontend UI made our AI platform stand out in the enterprise market. Outstanding execution quality.",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150"
+    },
+    {
+      "name": "Marcus Vance",
+      "role": "VP of Product Engineering",
+      "company": "Apex Code Solutions",
+      "feedback": "Working with Ajay was an absolute pleasure. His deep knowledge of React, Next.js, Node.js, and database optimization delivered massive performance improvements for our enterprise cloud systems.",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Architecting 60 FPS WebGL Scenes in React Three Fiber",
+      "date": "August 15, 2026",
+      "readTime": "8 min read",
+      "summary": "Deep dive into instanced mesh rendering, buffer attribute recycling, custom GLSL shader passes, and frame loop optimizations.",
+      "slug": "architecting-60-fps-webgl-r3f"
+    },
+    {
+      "title": "Building Resilient Event-Driven Microservices with Node.js & Redis",
+      "date": "July 20, 2026",
+      "readTime": "6 min read",
+      "summary": "How to decouple distributed server services, implement pub/sub channels, and achieve zero data loss during high load spikes.",
+      "slug": "event-driven-microservices-node-redis"
+    },
+    {
+      "title": "Sub-100ms Vector Retrieval with OpenAI & Pinecone RAG",
+      "date": "June 10, 2026",
+      "readTime": "5 min read",
+      "summary": "Step-by-step implementation guide to chunking documents, generating vector embeddings, and streaming SSE answers to frontend clients.",
+      "slug": "vector-retrieval-openai-pinecone-rag"
+    }
+  ]
+}
