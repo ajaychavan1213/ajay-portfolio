@@ -178,15 +178,15 @@ export default function HeroSection({ personalDetails }: { personalDetails: any 
           </motion.div>
         </div>
 
-        <div className="hidden lg:flex flex-col items-center justify-center space-y-4 pointer-events-auto">
+        <div className="flex flex-col items-center justify-center space-y-4 pointer-events-auto mt-6 lg:mt-0">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-            className="relative w-72 h-80 rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(0,240,255,0.2)] border border-[#00f0ff]/30 group"
+            className="relative w-60 h-72 sm:w-72 sm:h-80 rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(0,240,255,0.2)] border border-[#00f0ff]/30 group"
           >
             <img
-              src="/profile.jpg"
+              src={personalDetails.avatarUrl || personalDetails.profileImage || "/profile.jpg"}
               alt={personalDetails.name}
               className="w-full h-full object-cover transition duration-500 group-hover:scale-105"
             />

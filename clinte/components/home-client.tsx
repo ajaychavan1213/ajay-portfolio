@@ -13,13 +13,14 @@ import ContactSection from "@/components/sections/contact";
 import FooterSection from "@/components/sections/footer";
 import AIAssistant from "@/components/ai-assistant";
 import TerminalModal from "@/components/terminal-modal";
-import { Terminal, Cpu, Volume2, VolumeX, Sparkles, Command } from "lucide-react";
+import { Terminal, Cpu, Volume2, VolumeX, Sparkles, Command, Menu, X } from "lucide-react";
 import { soundFx } from "@/lib/sound-fx";
 
 export default function HomeClient({ data }: { data: any }) {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isTerminalOpen, setIsTerminalOpen] = useState(false);
   const [soundEnabled, setSoundEnabled] = useState(true);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -146,8 +147,45 @@ export default function HomeClient({ data }: { data: any }) {
               <Cpu className="w-3.5 h-3.5 animate-pulse" />
               <span>CONNECT</span>
             </button>
+
+            {/* Mobile Hamburger Toggle Button */}
+            <button
+              onClick={() => {
+                soundFx.playClick();
+                setMobileMenuOpen((prev) => !prev);
+              }}
+              title="Toggle Navigation Menu"
+              className="md:hidden p-2 rounded-lg border border-white/10 glass-light text-slate-300 hover:text-white transition duration-300 cursor-pointer"
+            >
+              {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            </button>
           </div>
         </div>
+
+        {/* Mobile Navigation Dropdown Drawer */}
+        {mobileMenuOpen && (
+          <div className="md:hidden border-b border-white/10 bg-[#030014]/95 backdrop-blur-xl px-6 py-4 space-y-3 font-mono text-xs text-slate-300 animate-fadeIn">
+            {[
+              { id: "hero", label: "Core" },
+              { id: "about", label: "Bio" },
+              { id: "skills", label: "Skills" },
+              { id: "projects", label: "Work" },
+              { id: "services", label: "Services" },
+              { id: "contact", label: "Connect" },
+            ].map((item) => (
+              <button
+                key={item.id}
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  handleScrollToSection(item.id);
+                }}
+                className="block w-full text-left py-2 px-3 rounded-lg hover:bg-white/5 hover:text-[#00f0ff] transition"
+              >
+                //{item.label}
+              </button>
+            ))}
+          </div>
+        )}
       </header>
 
       {/* Main Sections Shell */}

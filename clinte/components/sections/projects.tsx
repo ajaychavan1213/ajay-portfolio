@@ -163,20 +163,32 @@ export default function ProjectsSection({ projects }: { projects: Project[] }) {
 
               <div className="p-6 sm:p-8 space-y-6">
                 
-                {/* Visual Image Carousel (Procedural color blocks because mock photos might fail loading) */}
+                {/* Visual Image Carousel with Real Image Rendering & Fallback */}
                 <div className="relative w-full h-[240px] sm:h-[380px] rounded-2xl overflow-hidden bg-gradient-to-tr from-[#030014] to-[#120e3a] border border-white/5 flex items-center justify-center">
-                  <div className="absolute inset-0 grid-bg opacity-40 pointer-events-none" />
+                  {selectedProject.images && selectedProject.images[currentImageIndex] ? (
+                    <img
+                      src={selectedProject.images[currentImageIndex]}
+                      alt={selectedProject.title}
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        // Replace broken image with visual mock container
+                        (e.target as HTMLElement).style.display = "none";
+                      }}
+                    />
+                  ) : null}
+
+                  <div className="absolute inset-0 grid-bg opacity-40 pointer-events-none -z-0" />
                   
                   {/* Neon procedural block visual */}
                   <div className="text-center p-8 space-y-2 select-none">
                     <span className="text-xs font-mono text-[#00f0ff] uppercase tracking-widest block">
-                      IMAGE CAROUSEL FRAME [{currentImageIndex + 1} / {selectedProject.images.length}]
+                      IMAGE CAROUSEL FRAME [{currentImageIndex + 1} / {selectedProject.images.length || 1}]
                     </span>
                     <h4 className="text-white font-extrabold text-xl sm:text-2xl tracking-tight">
                       {selectedProject.title}
                     </h4>
                     <p className="text-xs text-slate-500 font-mono">
-                      Visual Mock Rendering - Asset synced at runtime.
+                      Visual Asset Frame — Synced at runtime.
                     </p>
                   </div>
 
