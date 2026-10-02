@@ -202,7 +202,7 @@ export default function HeroSection({ personalDetails }: { personalDetails: any 
             <h3 className="text-white font-extrabold text-xl tracking-tight">{personalDetails.name}</h3>
             <p className="text-[#00f0ff] font-mono text-xs tracking-wider uppercase font-semibold">{personalDetails.title}</p>
             <p className="text-slate-400 text-xs leading-relaxed">
-              Senior Staff Software Engineer & 3D Web Architect building high-performance applications.
+              Full Stack Software Engineer & Web Developer building modern, high-performance applications.
             </p>
           </motion.div>
         </div>

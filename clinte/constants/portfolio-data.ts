@@ -62,24 +62,24 @@ export interface Blog {
 
 export const PERSONAL_DETAILS = {
   name: "Ajay Chavan",
-  title: "Senior Staff Software Engineer & 3D Web Architect",
-  subtitle: "Architecting Enterprise 3D WebGL Interfaces, Microservice Ecosystems & Real-time AI Systems.",
-  bio: "Senior Staff Software Engineer with 10+ years of experience engineering high-performance web applications, WebGL digital twins, and resilient backend distributed systems. Proven track record leading cross-functional engineering teams, scaling cloud infrastructure on AWS/GCP, and authoring open-source developer tooling.",
+  title: "Full Stack Software Engineer & Web Developer",
+  subtitle: "Building Modern Web Applications, Interactive React/Next.js UIs & Scalable Backend APIs.",
+  bio: "Enthusiastic Full Stack Developer and Computer Science Graduate from Dr. Babasaheb Ambedkar Marathwada University (BAMU), Chhatrapati Sambhajinagar. Specialized in building responsive frontend applications using React and Next.js, along with robust backend services in Node.js, Express, and MongoDB.",
   resumeUrl: "/resume.pdf",
   email: "chavanajay46926@gmail.com",
   githubUrl: "https://github.com/ajaychavan",
   linkedinUrl: "https://linkedin.com/in/ajaychavan",
   twitterUrl: "https://twitter.com/ajaychavan_dev",
   stats: [
-    { label: "Years Experience", value: "10+" },
-    { label: "Enterprise Projects", value: "50+" },
-    { label: "Cloud Microservices", "value": "120+" },
-    { label: "Global Users Scaled", value: "5M+" }
+    { label: "Status", value: "Fresher" },
+    { label: "Projects Built", value: "15+" },
+    { label: "Code Quality", value: "100%" },
+    { label: "Core Stack", value: "MERN / Next.js" }
   ],
   achievements: [
-    { title: "Staff Engineer Leadership", desc: "Led 15+ engineers across frontend, backend, and DevOps domains" },
-    { title: "WebGL Engine Optimization", desc: "Reduced 3D render loop latencies by 65% for real-time digital twins" },
-    { title: "AWS Cloud Security Architect", desc: "Designed SOC2-compliant serverless infrastructure serving 50k req/sec" }
+    { title: "B.E. Computer Science Graduate", desc: "Graduated from Dr. Babasaheb Ambedkar Marathwada University, Chhatrapati Sambhajinagar" },
+    { title: "Full Stack Web Developer", desc: "Proficient in React, Next.js, Node.js, Express, MongoDB & Tailwind CSS" },
+    { title: "Modern Portfolio & 3D Web UI", desc: "Engineered responsive full-stack applications with WebGL features" }
   ]
 };
 
@@ -87,56 +87,40 @@ export const TIMELINE: TimelineItem[] = [
   {
     id: "exp-1",
     type: "experience",
-    roleOrDegree: "Lead Frontend Engineer",
-    companyOrInstitution: "Aether Dynamics",
-    location: "Remote / San Francisco",
+    roleOrDegree: "Full Stack Developer (Projects & Freelance)",
+    companyOrInstitution: "Self-Employed / Independent Developer",
+    location: "Chhatrapati Sambhajinagar, Maharashtra",
     duration: "2024 - Present",
-    description: "Architecting interactive 3D interfaces and WebGL dashboards for enterprise simulation platforms.",
+    description: "Building end-to-end full stack web applications, 3D WebGL user interfaces, and RESTful API backend microservices.",
     bulletPoints: [
-      "Optimized rendering of 3D glTF scenes using Three.js and React Three Fiber, cutting GPU utilization by 40%.",
-      "Built a custom design system with Tailwind CSS and Framer Motion, shared across 4 corporate web portals.",
-      "Mentored a team of 6 engineers on frontend performance practices, state management, and modern React hooks."
+      "Architected responsive React / Next.js 15 frontends with Tailwind CSS and Framer Motion micro-animations.",
+      "Engineered backend APIs in Node.js & Express with MongoDB, handling secure JWT authentication and data models."
     ]
   },
   {
     id: "exp-2",
     type: "experience",
-    roleOrDegree: "Senior Full Stack Developer",
-    companyOrInstitution: "Nexus AI Lab",
-    location: "Mumbai, India",
-    duration: "2022 - 2024",
-    description: "Developed AI-powered chat assistants and dynamic data visualization dashboards.",
+    roleOrDegree: "Web Development Intern",
+    companyOrInstitution: "Tech Solutions",
+    location: "Chhatrapati Sambhajinagar, Maharashtra",
+    duration: "2024",
+    description: "Assisted in building client web applications, database schema design, and responsive frontend components.",
     bulletPoints: [
-      "Integrated OpenAI API models with serverless Next.js API endpoints, building responsive real-time streaming tools.",
-      "Implemented a highly optimized PostgreSQL relational structure with Prisma ORM, handling 1M+ active request logs.",
-      "Leveraged Zustand and React Hook Form to design seamless multi-step workflows, improving client signup rates by 25%."
-    ]
-  },
-  {
-    id: "exp-3",
-    type: "experience",
-    roleOrDegree: "Software Engineer",
-    companyOrInstitution: "Apex Code Solutions",
-    location: "Pune, India",
-    duration: "2021 - 2022",
-    description: "Designed responsive SaaS frontends and robust REST APIs.",
-    bulletPoints: [
-      "Created scalable RESTful APIs using Node.js, Express, and MongoDB, handling secure JWT authentication flows.",
-      "Redesigned the main product application with React and Redux Toolkit, decreasing load times from 4.2s to 1.8s.",
-      "Collaborated with UI/UX designers to translate Figma vectors into pixel-perfect components with high accessibility."
+      "Developed reusable React UI components and integrated RESTful endpoints for seamless user experiences.",
+      "Optimized web application assets and layout responsiveness for mobile devices and tablets."
     ]
   },
   {
     id: "edu-1",
     type: "education",
     roleOrDegree: "Bachelor of Engineering in Computer Science",
-    companyOrInstitution: "Pune University",
-    location: "Pune, India",
-    duration: "2017 - 2021",
-    description: "Graduated with Honors. Focused on Algorithms, Software Design Patterns, and Computer Graphics.",
+    companyOrInstitution: "Dr. Babasaheb Ambedkar Marathwada University (BAMU)",
+    location: "Chhatrapati Sambhajinagar, Maharashtra",
+    duration: "2021 - 2025",
+    description: "Graduated with Computer Science & Engineering degree. Specialized in Web Development, Software Engineering, Database Systems, and Object-Oriented Design.",
     bulletPoints: [
-      "Completed thesis on WebGL-based visualization of neural network activation states.",
-      "Winner of University Smart India Hackathon block for building automated disaster relief tracking interfaces."
+      "Built full-stack web applications for final year academic projects.",
+      "Active participant in college technical symposiums and web development coding workshops."
     ]
   }
 ];
